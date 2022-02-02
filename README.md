@@ -1,4 +1,4 @@
-## Dashboard-Helper
+## Dashboard-auto-reload
 
 A python script providing an idea of how a MindSphere application, e.g., a dashboard, can be displayed around the clock without the need of manual re-authentication on enforced session expiration.
 
@@ -24,7 +24,7 @@ Along with the ```reloadAfterSec```, the configuration file contains the URL to 
 
 Put the chrome driver next to the script, so that it looks like:
 ```
-|--dashboard-helper
+|--dashboard-auto_reload
     |--   auto_reload.py
     |--   chromedriver.exe
     |--   config.json
