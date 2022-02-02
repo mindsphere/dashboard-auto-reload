@@ -7,7 +7,7 @@ The script starts a new incognito Chrome window, logs into MindSphere and naviga
 Along with the ```reloadAfterSec```, the configuration file contains the URL to navigate to, MindSphere username and password:
 ```
 {
-  "url": "<dashbord's URL>",
+  "url": "<dashboard's URL>",
   "user": {
     "email": "<MindSphere User>",
     "password": "<Password>"
@@ -15,6 +15,8 @@ Along with the ```reloadAfterSec```, the configuration file contains the URL to 
   "reloadAfterSec": 10800
 }
 ```
+
+Please note that the script works with the default MindSphere IDP and have to be adjusted if you set up a custom IDP.
 
 ### Prerequisites:
 
