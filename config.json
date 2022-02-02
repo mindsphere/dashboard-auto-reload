@@ -1,0 +1,8 @@
+{
+  "url": "<dashbord's URL>",
+  "user": {
+    "email": "<MindSphere User>",
+    "password": "<Password>"
+  },
+  "reloadAfterSec": 10800
+}
